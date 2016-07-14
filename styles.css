@@ -1,22 +1,7 @@
-
-/* navigation */
-ul#navBar {
-    padding-top: 15px;
-}
-
-ul#navBar li {
-    display: inline;
-    padding: 5px 10px;
-    margin-right: 5px;
-    font-size: 24px;
-    border-radius: 25px;
-    background-color: #2a334f;
-}
-/*   end navigation */ 
-
 * {
     font-family: Courier, monospace;
     text-align: center;
+    color: white;
 }
 
 h1 {
@@ -25,12 +10,12 @@ h1 {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: white;
+h2 {
+	text-shadow: 1px 2px 3px black;
 }
 
-.clicked {
+a {
+	text-decoration: none;
 	color: white;
 }
 
@@ -39,18 +24,40 @@ a {
 	border-radius: 5px;
 }
 
+/* navigation */
+ul {
+    padding-top: 15px;
+}
+
+li.navBar {
+    display: inline;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+/*this is separated from above so that the bg color can be changed*/
+li {
+	background-color: #2a334f;
+}
+
 .orange {
 	background-color: orange;
 }
 
-li.yellow {
-	background-color: yellow;
+.red {
+	background-color: red;
 }
 
-li.green {
+.green {
 	background-color: green;
 }
 
-li.blue {
+.blue {
 	background-color: blue;
 }
+
+
+
+
