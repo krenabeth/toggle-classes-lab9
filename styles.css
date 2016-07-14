@@ -31,10 +31,11 @@ ul {
 
 li.navBar {
     display: inline;
-    padding: 5px 10px;
-    margin-right: 5px;
-    font-size: 2em;
+    padding: 20px 2px;
+    margin-right: 1px;
+    font-size: 1.5em;
     border-radius: 25px;
+    box-shadow: inset 1px 2px 1px #60a0df;
 }
 
 /*this is separated from above so that the bg color can be changed*/

@@ -7,7 +7,7 @@ var $navBar = $('.navBar');
 // //all li height of at least 50px
 $(function() {
 	$($navBar).css ({
-		'width': '300px',
+		'width': '325px',
 		'height': '50px'
 	});
 });
@@ -28,22 +28,22 @@ $li.hover(function() {
 // each li changes to 'Click!' when clicked
 // and first changes to orange
 $($('#one')).on('click', function() {
-	$( this ).append('Clicked!'),
+	$( this ).append(' Clicked!'),
 	$( this ).addClass('orange')
 });
 // second li to red
 $($('#two')).on('click', function() {
-	$( this ).append('Clicked!'),
+	$( this ).append(' Clicked!'),
 	$( this ).addClass('red')
 });
 //third to green
 $($('#three')).on('click', function() {
-	$( this ).append('Clicked!'),
+	$( this ).append(' Clicked!'),
 	$( this ).addClass('green')
 });
 //fourth to blue
 $($('#four')).on('click', function() {
-	$( this ).append('Clicked!'),
+	$( this ).append(' Clicked!'),
 	$( this ).addClass('blue')
 });
 
