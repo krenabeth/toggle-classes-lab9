@@ -3,15 +3,17 @@ $(document).ready(function() {
 // global variable for li
 var $li = $('li');
 var $navBar = $('.navBar');
-//all li width of at least 200px  // not working yet
+//all li width of at least 200px  
 // //all li height of at least 50px
 $(function() {
 	$($navBar).css ({
-		'width': '200px',
-		'height': '75px'
+		'width': '300px',
+		'height': '50px'
 	});
 });
-// $('.navBar').css('width', '800px');
+$(function() {
+	$('li').hide().slideDown('6000');
+});
 
 // for each li, fade to 0.25 opacity for hover
 $li.hover(function() {
